@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="heading">To-Do List</header>
+
+    <div class="inputbox">
+      <input type="text" placeholder="Add a new task">
+      <i id="addbutton" class="uil uil-plus-circle"></i>
+    </div>
+
+    <ul class="itemlist">
+      <p class="empty-message">No tasks yet. Start by adding one!</p>
+    </ul>
+
+
+    <div class="statusbar">
+      <span><strong>Total Tasks:</strong> <span class="total-count">0</span></span>
+      <span><strong>Completed:</strong> <span class="completed-count">0</span></span>
+      <span><strong>Uncompleted:</strong> <span class="uncompleted-count">0</span></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

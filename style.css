@@ -1,0 +1,90 @@
+/* Container styling */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.inputbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inputbox input {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.inputbox i {
+  font-size: 2rem;
+  color: #28a745;
+  cursor: pointer;
+}
+
+.inputbox i:hover {
+  transform: scale(1.1);
+}
+
+.itemlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.itemlist li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.itemlist li.completed {
+  background-color: #e6ffe6;
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.itemlist li .status-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  color: green;
+}
+
+.itemlist li.completed .status-icon {
+  color: red;
+}
+
+.itemlist li .status-icon:hover {
+  transform: scale(1.2);
+}
+
+.statusbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #495057;
+}
